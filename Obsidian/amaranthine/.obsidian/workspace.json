@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "09fd608de45ce6ee",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-08-25 19.55.49.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Amaranthine.md",
+                "file": "Excalidraw/Drawing 2024-08-25 19.55.49.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Amaranthine.md",
+                "file": "Excalidraw/Drawing 2024-08-25 19.55.49.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Amaranthine.md"
+                "file": "Excalidraw/Drawing 2024-08-25 19.55.49.excalidraw.md"
               }
             }
           }
@@ -143,11 +154,14 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a99c4845df8046af",
+  "active": "09fd608de45ce6ee",
   "lastOpenFiles": [
-    "Amaranthine.md"
+    "Amaranthine.md",
+    "Excalidraw/Drawing 2024-08-25 19.55.49.excalidraw.md",
+    "Excalidraw"
   ]
 }

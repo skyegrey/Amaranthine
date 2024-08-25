@@ -1,4 +1,5 @@
 - [ ] Project Setup
-	- [ ] Create Godot Project
-	- [ ] Setup Git
+	- [x] Create Godot Project
+	- [x] Setup Git
 	- [ ] Define the core gameplay loop
+		- [ ] 
