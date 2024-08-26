@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bk8fq5hm45t44"
-path="res://.godot/imported/character_idle.png-46573bcd08cf563a57ddcc8f28bf9475.ctex"
+uid="uid://cu5hjjnci0bwd"
+path="res://.godot/imported/Dungeon_Bat_Hoary_Idle.png-939c6da6af3b64869a57784e62deb52f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/PlayerSprite/character_idle.png"
-dest_files=["res://.godot/imported/character_idle.png-46573bcd08cf563a57ddcc8f28bf9475.ctex"]
+source_file="res://Assets/Enemies/bat/Dungeon_Bat_Hoary_Idle.png"
+dest_files=["res://.godot/imported/Dungeon_Bat_Hoary_Idle.png-939c6da6af3b64869a57784e62deb52f.ctex"]
 
 [params]
 

@@ -8,6 +8,9 @@ class_name Camera extends Camera2D
 var zoom_level: float = 1
 var mouse_drag_position: Vector2
 
+# State variables
+var is_snapping: bool = false
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
@@ -37,6 +40,7 @@ func _input(event):
 			if not is_camera_dragging:
 				mouse_drag_position = event.position
 				is_camera_dragging = true
+				is_snapping = false
 			
 		elif not event.pressed:
 			is_camera_dragging = false
