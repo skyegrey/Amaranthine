@@ -10,6 +10,8 @@ var mouse_drag_position: Vector2
 
 # State variables
 var is_snapping: bool = false
+var is_lerping_to_enemy: bool = false
+var lerp_enemy: Node2D = null
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -20,6 +22,10 @@ func _process(delta):
 	_process_zoom()
 	if is_camera_dragging:
 		_process_camera_move()
+	if is_lerping_to_enemy:
+		position = position * .95 + lerp_enemy.position * .05
+		if (position - lerp_enemy.position).length() <= 0.01:
+			is_lerping_to_enemy = false
 
 func _process_zoom():
 	if Input.is_action_just_pressed("ui_zoom_in"):
@@ -52,3 +58,7 @@ func _input(event):
 
 func move_camera(movement_vector):
 	position += movement_vector / zoom_level
+
+func pan_to_enemy(enemy):
+	is_lerping_to_enemy = true
+	lerp_enemy = enemy

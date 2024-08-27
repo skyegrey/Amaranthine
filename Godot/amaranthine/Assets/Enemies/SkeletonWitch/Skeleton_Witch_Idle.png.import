@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bk8fq5hm45t44"
-path="res://.godot/imported/Character_Idle.png-c158bddfe2deec1dba75230568b3897c.ctex"
+uid="uid://bwegrnht7x81"
+path="res://.godot/imported/Skeleton_Witch_Idle.png-8c72c8b8a275edba7f87a3168827a6a1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/PlayerSprite/Character_Idle.png"
-dest_files=["res://.godot/imported/Character_Idle.png-c158bddfe2deec1dba75230568b3897c.ctex"]
+source_file="res://Assets/Enemies/SkeletonWitch/Skeleton_Witch_Idle.png"
+dest_files=["res://.godot/imported/Skeleton_Witch_Idle.png-8c72c8b8a275edba7f87a3168827a6a1.ctex"]
 
 [params]
 

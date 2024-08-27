@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bpxxko6yjn4ps"]
+
+[ext_resource type="Texture2D" uid="uid://860a6jiu5m6s" path="res://Assets/Tiles/enemy-detection.png" id="1_0dsmb"]
+
+[node name="VisionTile" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_0dsmb")

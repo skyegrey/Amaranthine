@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bk8fq5hm45t44"
-path="res://.godot/imported/Character_Idle.png-c158bddfe2deec1dba75230568b3897c.ctex"
+uid="uid://tikq2dco2iqc"
+path="res://.godot/imported/Golem_Green_Attack.png-3f1f3491b2f02091697e6bf80531aa63.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/PlayerSprite/Character_Idle.png"
-dest_files=["res://.godot/imported/Character_Idle.png-c158bddfe2deec1dba75230568b3897c.ctex"]
+source_file="res://Assets/Enemies/GreenGolem/Golem_Green_Attack.png"
+dest_files=["res://.godot/imported/Golem_Green_Attack.png-3f1f3491b2f02091697e6bf80531aa63.ctex"]
 
 [params]
 
