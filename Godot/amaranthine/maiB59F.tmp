@@ -706,12 +706,12 @@ metadata/_edit_lock_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Enemy"]
 z_index = 2
-position = Vector2(0, -32)
+position = Vector2(-48, -60)
 scale = Vector2(2, 2)
 sprite_frames = SubResource("SpriteFrames_5u1w4")
 animation = &"move_left"
 autoplay = "idle_down"
-frame_progress = 0.630838
+frame_progress = 0.758113
 metadata/_edit_lock_ = true
 
 [node name="DetectionIndicator" type="Sprite2D" parent="Enemy"]
@@ -724,8 +724,6 @@ offset = Vector2(0, -32)
 
 [node name="PatrolWaitTimer" type="Timer" parent="Enemy"]
 wait_time = 3.0
-one_shot = true
-autostart = true
 
 [node name="Player" type="Node2D" parent="."]
 unique_name_in_owner = true

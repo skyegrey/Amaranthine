@@ -13,6 +13,9 @@ var is_snapping: bool = false
 var is_lerping_to_enemy: bool = false
 var lerp_enemy: Node2D = null
 
+# Signals
+signal enemy_lerp_finished
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
@@ -24,8 +27,10 @@ func _process(delta):
 		_process_camera_move()
 	if is_lerping_to_enemy:
 		position = position * .95 + lerp_enemy.position * .05
-		if (position - lerp_enemy.position).length() <= 0.01:
+		if (position - lerp_enemy.position).length() <= 0.4:
 			is_lerping_to_enemy = false
+			enemy_lerp_finished.emit()
+			
 
 func _process_zoom():
 	if Input.is_action_just_pressed("ui_zoom_in"):

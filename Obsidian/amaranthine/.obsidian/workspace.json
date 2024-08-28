@@ -33,9 +33,11 @@
             "id": "cc9bb029f7eb4175",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-27 18.31.58.excalidraw.md"
+                "file": "Amaranthine.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -106,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-27 18.31.58.excalidraw.md",
+                "file": "Amaranthine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-27 18.31.58.excalidraw.md",
+                "file": "Amaranthine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-27 18.31.58.excalidraw.md"
+                "file": "Amaranthine.md"
               }
             }
           }
@@ -170,8 +172,8 @@
   },
   "active": "cc9bb029f7eb4175",
   "lastOpenFiles": [
-    "Amaranthine.md",
     "Excalidraw/Drawing 2024-08-27 18.31.58.excalidraw.md",
+    "Amaranthine.md",
     "Excalidraw/Drawing 2024-08-25 19.55.49.excalidraw.md",
     "Excalidraw"
   ]

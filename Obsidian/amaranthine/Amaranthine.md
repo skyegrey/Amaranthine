@@ -1,5 +1,16 @@
-- [ ] Project Setup
+- [x] Project Setup
 	- [x] Create Godot Project
 	- [x] Setup Git
-	- [ ] Define the core gameplay loop
-		- [ ] 
+	- [x] Define the core gameplay loop
+- [x] Spotted character turns towards the player on discovery
+- [x] Spotted character displays an exclamation point on discovery
+- [x] Enemy patrol movement
+	- [x] Sprite animates to edge of tile
+	- [x] On movement finished, actual node jumps to next tile
+	- [x] Animate from edge of new tile to center of tile
+- [ ] Better animation pausing / detection on player detection
+- [ ] On patrol movement update, check if new tiles intersect with player
+- [ ] Patrol location next tile flow calculation
+- [ ] Add tile map layers
+- [ ] Create procedural modules
+- [ ] Update to 4.3 actual
